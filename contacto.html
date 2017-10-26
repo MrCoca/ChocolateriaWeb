@@ -1,0 +1,102 @@
+<HTML>
+<head>
+	<meta charset="utf-8">
+	<title>Chocolatería sin nombre</title>
+	<link rel="shortcut icon" href="ico00.png">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="barraMenu.css">
+	<link rel="stylesheet" type="text/css" href="estillo-general.css">
+</head>
+
+<body>
+
+<header>
+	<a href="index.html"><img src="logo.png" style="padding-left: 170px;"></a>
+	<ul  style="float: right; list-style-type: none;">
+		<li class="li-header" style="padding-right: 10px;"><img src="email-ico01.png" hspace="10"><img src="twitter-ico01.png" hspace="10"><img src="facebook-ico01.png" hspace="10"></li>
+		<li><form class="buscador" action="..." >
+		<br>
+		<input type="text" name="buscador" placeholder="🕶buscar...">
+		</form></li>
+	</ul>
+</header>
+
+<div id="navegador"> 
+
+<ul>
+	<a href="index.html"><img src="home.png"></a>
+	<li><a href="venta-online.html">Venta Online</a></li>
+	<li><a href="">Evento Empresas</a></li>
+	<li><a href="regalos.html">Regalos</a></li>
+	<li><a href="contacto.html">Contacto</a></li>
+	</ul>
+		
+</div>	
+
+
+<h1 class="titulos">Contactanos</h1>
+
+<div class="container">
+
+
+
+<form name="formulario1" action="" onsubmit="return validateForm()">
+  <div class="input-group">
+    <label for="fname">Nombre completo</label>
+    <input type="text" id="input1" name="input1" placeholder="nombre completo..." onblur="return checkFullName()">
+  </div>
+
+    <label for="lname">Correo</label>
+    <input type="Email" id="correo" name="correo" placeholder="su correo electronico..." onblur="return checkValidEmail()">
+
+     <label for="lname">Telefono</label>
+    <input type="number" id="telefono" max="9" name="telefono" placeholder="numero telefonico..." onblur="return checkVaildNumber()">
+
+    <label for="country">Pais</label>
+    <select id="country" name="country">
+      <option value="chile">Chile</option>
+      <option value="argentina">Argentina</option>
+      <option value="brasil">Brasil</option>
+    </select>
+
+    <label for="subject">Comentario</label>
+    <textarea id="subject" name="subject" placeholder="Esribe algo.." style="height:200px"></textarea>
+
+    <input type="submit" value="Enviar">
+    </form>
+  
+</div>
+<p>El chocolate negro (con un 70% de cacao) nos ayuda a proteger el corazón, es rico en antioxidantes y estimula el flujo sanguíneo al cerebro, por lo que ayuda a mejorar la función cognitiva...</p>
+<div style="text-align: center;">
+<img src="choco2.jpg" alt="Chocolates variedades" style="width:600px;">"
+<h3>Contáctanos y haz tu pedido!</h3>
+</div>
+
+<footer>
+	<ul class="izq">
+		<li><img src="facebook-ico01.png">Facebook</li>
+		<li><img src="twitter-ico01.png">Twitter</li>
+		<li><img src="insta-ico00.png">Instagram</li>
+	</ul>
+
+	<ul class="cen">
+		<li><img src="contacto-ico00.png">Contacto: +56 986543376</li>
+		<li><img src="email-ico01.png">Email: chocolateria@gmail.com</li>
+		<li><a href="historia.html"><img src="info-ico00.png">Sobre nosotros</a></li>
+	</ul>
+
+	<ul class="der">
+		<li><img src="preguntas-ico00.png">Preguntas frecuentes</li>
+		<li><img src="box-ico00.png">¿Cómo comprar?</li>
+		<li><img src="box-ico00.png">Políticas de envío</li>
+	</ul>
+
+	<ul class="info">
+		<li>Dirección: Av. Siempre Viva 02172, Local 310, Temuco.</li>
+		<li>Horario de Atención: lunes a viernes 10 a 18 Hrs.</li>
+	</ul>
+
+</footer>
+<script type="text/javascript" src="main.js" ></script>
+</body>
+</HTML>
